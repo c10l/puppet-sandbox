@@ -1,1 +1,1 @@
-include lib_module
+include app_module
