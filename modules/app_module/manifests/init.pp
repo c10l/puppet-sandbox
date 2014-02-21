@@ -1,6 +1,6 @@
 class app_module(
 
-  $arbitrary_parameter = $app_module::params::arbitrary_parameter
+  $app_parameter = $app_module::params::app_parameter
 
 ) inherits app_module::params {
 

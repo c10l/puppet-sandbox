@@ -1,7 +1,7 @@
 class app_module::notify {
 
-  notify { "app_module::arbitrary_parameter":
-    message => "app_module::arbitrary_parameter is set to the ${::app_module::arbitrary_parameter}"
+  notify { "app_module::app_parameter":
+    message => "app_module::app_parameter is set to the ${::app_module::app_parameter}"
   }
 
 }

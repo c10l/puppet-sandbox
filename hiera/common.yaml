@@ -1,2 +1,2 @@
 ---
-lib_module::arbitrary_parameter: hiera override
+lib_module::lib_parameter: hiera override
