@@ -1,2 +1,7 @@
 ---
-lib_module::param1: hiera override
+:hierarchy:
+    - common
+:backends:
+    - yaml
+:yaml:
+    :datadir: 'hiera/'
